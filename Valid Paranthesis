@@ -26,22 +26,27 @@ Explanation: The expression is not balanced as there is a closing ']' before the
 
 class Solution {
     static boolean isBalanced(String s) {
-        Stack<Character>stack=new Stack<>();
+        int str_length=s.length();
         
-        for(char ch:s.toCharArray())
+        char stack[]=new char[str_length];
+        int top=-1;
+        
+        for(int i=0 ; i<str_length ; i++)
         {
-            if(ch=='['||ch=='('||ch=='{')
-               stack.push(ch);
-            else
-               if(ch==']' && !stack.isEmpty() && stack.peek()=='[')
-                  stack.pop();
-               else if(ch==')' && !stack.isEmpty() && stack.peek()=='(')
-                  stack.pop();
-               else if(ch=='}' && !stack.isEmpty() && stack.peek()=='{')
-                  stack.pop();
-               else
-                  return false;
+            char character=s.charAt(i);
+            
+            if(character=='(' || character=='[' || character=='{')      //if it is the open bracket
+            {
+                stack[++top]=character;
+            }
+            else     //if it is the closing bracket
+            {
+                //Here we are used top==-1. means if this closing bracket occurs first it is not valid 
+                if(top==-1 ||(character==')' && stack[top]!='(')||(character==']' && stack[top]!='[')||(character=='}' && stack[top]!='{'))
+                      return false;
+                top--;
+            }
         }
-        return stack.isEmpty();
+        return top==-1;
     }
 }
