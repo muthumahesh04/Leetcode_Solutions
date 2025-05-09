@@ -17,4 +17,16 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0678-valid-parenthesis-string](https://github.com/muthumahesh04/Leetcode_Solutions/tree/master/0678-valid-parenthesis-string) |
+## Math
+|  |
+| ------- |
+| [0258-add-digits](https://github.com/muthumahesh04/Leetcode_Solutions/tree/master/0258-add-digits) |
+## Simulation
+|  |
+| ------- |
+| [0258-add-digits](https://github.com/muthumahesh04/Leetcode_Solutions/tree/master/0258-add-digits) |
+## Number Theory
+|  |
+| ------- |
+| [0258-add-digits](https://github.com/muthumahesh04/Leetcode_Solutions/tree/master/0258-add-digits) |
 <!---LeetCode Topics End-->
