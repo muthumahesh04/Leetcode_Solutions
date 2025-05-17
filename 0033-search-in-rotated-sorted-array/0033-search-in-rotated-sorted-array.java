@@ -20,7 +20,7 @@ class Solution
             }
             else                     //if the right half is sorted 
             {
-                if(target>=nums[mid] && target<=nums[high])//if the target is in the right half
+                if(target>=nums[mid+1] && target<=nums[high])//if the target is in the right half
                 {
                     low=mid+1;
                 }
