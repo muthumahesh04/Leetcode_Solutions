@@ -10,7 +10,7 @@ class Solution
             return nums.length-1;
 
         int low=1;              //important. consider index 1 as low. beacuse index 0 has no mid-1
-        int high=nums.length-2;
+        int high=nums.length-2; 
 
         while(low<=high)
         {
