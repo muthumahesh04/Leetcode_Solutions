@@ -12,7 +12,7 @@ class Solution
                 zeropointer++;
                 nonzeropointer++;
             }
-            else if(nonzeropointer<nums.length && nums[nonzeropointer]==0)
+            else if( nums[nonzeropointer]==0)
             {
                 nonzeropointer++;
             }
