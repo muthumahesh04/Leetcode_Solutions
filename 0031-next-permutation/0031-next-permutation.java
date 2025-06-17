@@ -1,46 +1,28 @@
 class Solution 
 {
-    public int find_next_greater_number_index(int[] nums,int start,int end,int target)
+    public void reverse(int array[],int start,int end)
     {
-        int next_greater_number=Integer.MAX_VALUE;
-        int next_greater_number_index=-1;
-        for(int i=start ; i<=end ; i++)
+        while(start<end)
         {
-            if(nums[i]>target && nums[i]<next_greater_number)
-            {
-                next_greater_number=nums[i];
-                next_greater_number_index=i;
-            }
+            int temporary=array[start];
+            array[start]=array[end];
+            array[end]=temporary;
+            start++;
+            end--;
         }
-        return next_greater_number_index;
-    }  
-    public void swap(int arr[],int index1,int index2)
+    }
+    public void swap(int array[],int indx1,int indx2)
     {
-        int temp=arr[index1];
-        arr[index1]=arr[index2];
-        arr[index2]=temp;
-    } 
-    public void sort(int arr[],int start_index,int end_index)
-    {
-        for(int i=start_index; i<=end_index; i++)
-        {
-           for(int j=i+1 ; j<=end_index ; j++)
-           {
-              if(arr[i]>arr[j])
-              {
-                 int temp=arr[i];
-                 arr[i]=arr[j];
-                 arr[j]=temp;
-              }
-           }
-        }   
+        int temp=array[indx1];
+        array[indx1]=array[indx2];
+        array[indx2]=temp;
     }
     public void nextPermutation(int[] nums) 
     {
         int dip_index=-1;
-        int dip_number=Integer.MAX_VALUE;
+        int dip_number=nums[0];
 
-        for(int i=nums.length-2 ; i>=0 ;i--)
+        for(int i=nums.length-2;i>=0;i--)
         {
             if(nums[i]<nums[i+1])
             {
@@ -51,14 +33,22 @@ class Solution
         }
         if(dip_index==-1)
         {
-            sort(nums,0,nums.length-1);
+            reverse(nums,0,nums.length-1);
             return;
         }
-
-        int next_greater_number_index=find_next_greater_number_index(nums,dip_index+1,nums.length-1,dip_number);
-
+           
+        int next_greater_number=Integer.MAX_VALUE;
+        int next_greater_number_index=-1;
+        for(int i=dip_index+1;i<nums.length;i++)
+        {
+            if(nums[i]>dip_number && nums[i]<=next_greater_number)
+            {
+                next_greater_number=nums[i];
+                next_greater_number_index=i;
+            }
+        }
         swap(nums,dip_index,next_greater_number_index);
-        sort(nums,dip_index+1,nums.length-1);
+        
+        reverse(nums,dip_index+1,nums.length-1);
     }
-    
 }
