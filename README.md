@@ -43,6 +43,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0035-search-insert-position](https://github.com/muthumahesh04/Leetcode_Solutions/tree/master/0035-search-insert-position) |
 | [0056-merge-intervals](https://github.com/muthumahesh04/Leetcode_Solutions/tree/master/0056-merge-intervals) |
 | [0074-search-a-2d-matrix](https://github.com/muthumahesh04/Leetcode_Solutions/tree/master/0074-search-a-2d-matrix) |
+| [0088-merge-sorted-array](https://github.com/muthumahesh04/Leetcode_Solutions/tree/master/0088-merge-sorted-array) |
 | [0135-candy](https://github.com/muthumahesh04/Leetcode_Solutions/tree/master/0135-candy) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/muthumahesh04/Leetcode_Solutions/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0162-find-peak-element](https://github.com/muthumahesh04/Leetcode_Solutions/tree/master/0162-find-peak-element) |
@@ -54,6 +55,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0056-merge-intervals](https://github.com/muthumahesh04/Leetcode_Solutions/tree/master/0056-merge-intervals) |
+| [0088-merge-sorted-array](https://github.com/muthumahesh04/Leetcode_Solutions/tree/master/0088-merge-sorted-array) |
 ## Binary Search
 |  |
 | ------- |
@@ -88,5 +90,6 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0011-container-with-most-water](https://github.com/muthumahesh04/Leetcode_Solutions/tree/master/0011-container-with-most-water) |
 | [0031-next-permutation](https://github.com/muthumahesh04/Leetcode_Solutions/tree/master/0031-next-permutation) |
+| [0088-merge-sorted-array](https://github.com/muthumahesh04/Leetcode_Solutions/tree/master/0088-merge-sorted-array) |
 | [0283-move-zeroes](https://github.com/muthumahesh04/Leetcode_Solutions/tree/master/0283-move-zeroes) |
 <!---LeetCode Topics End-->
