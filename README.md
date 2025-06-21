@@ -48,6 +48,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0135-candy](https://github.com/muthumahesh04/Leetcode_Solutions/tree/master/0135-candy) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/muthumahesh04/Leetcode_Solutions/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0162-find-peak-element](https://github.com/muthumahesh04/Leetcode_Solutions/tree/master/0162-find-peak-element) |
+| [0238-product-of-array-except-self](https://github.com/muthumahesh04/Leetcode_Solutions/tree/master/0238-product-of-array-except-self) |
 | [0283-move-zeroes](https://github.com/muthumahesh04/Leetcode_Solutions/tree/master/0283-move-zeroes) |
 | [0792-binary-search](https://github.com/muthumahesh04/Leetcode_Solutions/tree/master/0792-binary-search) |
 | [0932-monotonic-array](https://github.com/muthumahesh04/Leetcode_Solutions/tree/master/0932-monotonic-array) |
@@ -93,4 +94,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0031-next-permutation](https://github.com/muthumahesh04/Leetcode_Solutions/tree/master/0031-next-permutation) |
 | [0088-merge-sorted-array](https://github.com/muthumahesh04/Leetcode_Solutions/tree/master/0088-merge-sorted-array) |
 | [0283-move-zeroes](https://github.com/muthumahesh04/Leetcode_Solutions/tree/master/0283-move-zeroes) |
+## Prefix Sum
+|  |
+| ------- |
+| [0238-product-of-array-except-self](https://github.com/muthumahesh04/Leetcode_Solutions/tree/master/0238-product-of-array-except-self) |
 <!---LeetCode Topics End-->
