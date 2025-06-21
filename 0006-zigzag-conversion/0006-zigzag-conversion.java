@@ -8,27 +8,27 @@ class Solution
            return s;
         for(int i=0 ; i<numRows ; i++)
         {
-            int temporary=i;
+            int step_value=i;
             int flag=0;
 
-            while(temporary<s.length())
+            while(step_value<s.length())
             {
-                result.append(s.charAt(temporary));
+                result.append(s.charAt(step_value));
 
                 if(i==0 || i==numRows-1)     //for first and last rows
                 {
-                    temporary+=(numRows-1)*2;
+                    step_value+=(numRows-1)*2;
                 }
                 else                        //for middle rows
                 {
                     if(flag%2==0)
                     {
-                        temporary+=((numRows-1)*2)-(2*i);
+                        step_value+=((numRows-1)*2)-(2*i);
                         flag++;
                     }
                     else
                     {
-                        temporary+=(i*2);
+                        step_value+=(i*2);
                         flag++;
                     }
                 }
