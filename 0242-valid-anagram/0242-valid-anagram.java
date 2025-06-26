@@ -14,7 +14,7 @@ class Solution
         }
         for(int j=0;j<t.length();j++)
         {
-            if(count_frequency[t.charAt(j)-'a']==0)
+            if(count_frequency[t.charAt(j)-'a']<=0)
                return false;
             count_frequency[t.charAt(j)-'a']--;
         }
@@ -24,6 +24,5 @@ class Solution
               return false;
         }
         return true;
-
     }
 }
