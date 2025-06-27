@@ -5,6 +5,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0006-zigzag-conversion](https://github.com/muthumahesh04/Leetcode_Solutions/tree/master/0006-zigzag-conversion) |
+| [0022-generate-parentheses](https://github.com/muthumahesh04/Leetcode_Solutions/tree/master/0022-generate-parentheses) |
 | [0151-reverse-words-in-a-string](https://github.com/muthumahesh04/Leetcode_Solutions/tree/master/0151-reverse-words-in-a-string) |
 | [0242-valid-anagram](https://github.com/muthumahesh04/Leetcode_Solutions/tree/master/0242-valid-anagram) |
 | [0541-reverse-string-ii](https://github.com/muthumahesh04/Leetcode_Solutions/tree/master/0541-reverse-string-ii) |
@@ -12,6 +13,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Dynamic Programming
 |  |
 | ------- |
+| [0022-generate-parentheses](https://github.com/muthumahesh04/Leetcode_Solutions/tree/master/0022-generate-parentheses) |
 | [0045-jump-game-ii](https://github.com/muthumahesh04/Leetcode_Solutions/tree/master/0045-jump-game-ii) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/muthumahesh04/Leetcode_Solutions/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/muthumahesh04/Leetcode_Solutions/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
@@ -118,4 +120,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0238-product-of-array-except-self](https://github.com/muthumahesh04/Leetcode_Solutions/tree/master/0238-product-of-array-except-self) |
+## Backtracking
+|  |
+| ------- |
+| [0022-generate-parentheses](https://github.com/muthumahesh04/Leetcode_Solutions/tree/master/0022-generate-parentheses) |
 <!---LeetCode Topics End-->
