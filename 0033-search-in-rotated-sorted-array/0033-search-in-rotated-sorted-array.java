@@ -11,23 +11,20 @@ class Solution
 
             if(nums[mid]==target)
                return mid;
+
             else if(nums[low]<=nums[mid]) //if the left half is sorted
             {
-                if(target>=nums[low] && target<=nums[mid])//if the target is in the left half
-                    high=mid;
+                if(target>=nums[low] && target<=nums[mid])
+                    high=mid-1;
                 else
                     low=mid+1;
             }
-            else                     //if the right half is sorted 
+            else
             {
-                if(target>=nums[mid+1] && target<=nums[high])//if the target is in the right half
-                {
+                if(target>=nums[mid] && target<=nums[high])
                     low=mid+1;
-                }
                 else
-                {
-                    high=mid;
-                }
+                    high=mid-1;
             }
         }
         return -1;
