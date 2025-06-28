@@ -2,32 +2,35 @@ class Solution
 {
     public String longestCommonPrefix(String[] strs) 
     {
-        String str="";
-        int smallest_string_length=smallest_str_length(strs);
+        int smallest_string_length=find_smallest_string_len(strs);
+
+        StringBuilder sb=new StringBuilder();
+        
         int index=0;
         while(index<smallest_string_length)
         {
             char ch=strs[0].charAt(index);
-            for(int i=0;i<strs.length;i++)
+
+            for(int i=0 ; i<strs.length ; i++)
             {
                 if(ch!=strs[i].charAt(index))
-                {
-                    return str;
-                }
+                   return sb.toString();
             }
-            str=str+ch;
+            sb.append(ch);
             index++;
         }
-        return str;
-        
+        return sb.toString();
     }
-    public int smallest_str_length(String[] array)
+    public int find_smallest_string_len(String[] strings)
     {
-        int length=array[0].length();
-        for(int i=0;i<array.length;i++)
+        int smallest_length=strings[0].length();
+        for(int i=0 ; i<strings.length ;i++)
         {
-            length=Math.min(length,array[i].length());
+            if(strings[i].length()<smallest_length)
+            {
+                smallest_length=strings[i].length();
+            }
         }
-        return length;
+        return smallest_length;
     }
 }
