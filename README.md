@@ -5,6 +5,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0006-zigzag-conversion](https://github.com/muthumahesh04/Leetcode_Solutions/tree/master/0006-zigzag-conversion) |
+| [0012-integer-to-roman](https://github.com/muthumahesh04/Leetcode_Solutions/tree/master/0012-integer-to-roman) |
 | [0022-generate-parentheses](https://github.com/muthumahesh04/Leetcode_Solutions/tree/master/0022-generate-parentheses) |
 | [0151-reverse-words-in-a-string](https://github.com/muthumahesh04/Leetcode_Solutions/tree/master/0151-reverse-words-in-a-string) |
 | [0242-valid-anagram](https://github.com/muthumahesh04/Leetcode_Solutions/tree/master/0242-valid-anagram) |
@@ -35,6 +36,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0007-reverse-integer](https://github.com/muthumahesh04/Leetcode_Solutions/tree/master/0007-reverse-integer) |
+| [0012-integer-to-roman](https://github.com/muthumahesh04/Leetcode_Solutions/tree/master/0012-integer-to-roman) |
 | [0258-add-digits](https://github.com/muthumahesh04/Leetcode_Solutions/tree/master/0258-add-digits) |
 ## Simulation
 |  |
@@ -105,6 +107,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/muthumahesh04/Leetcode_Solutions/tree/master/0001-two-sum) |
+| [0012-integer-to-roman](https://github.com/muthumahesh04/Leetcode_Solutions/tree/master/0012-integer-to-roman) |
 | [0242-valid-anagram](https://github.com/muthumahesh04/Leetcode_Solutions/tree/master/0242-valid-anagram) |
 ## Two Pointers
 |  |
