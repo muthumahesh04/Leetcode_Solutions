@@ -8,9 +8,9 @@ class Solution
             if(haystack.charAt(i)==needle.charAt(j))
             {
                 int temporary=i;
-                while(temporary<temporary+needle.length())
+                while(j<needle.length() && temporary<temporary+needle.length())
                 {
-                    if(j<needle.length() && haystack.charAt(temporary)==needle.charAt(j))
+                    if( haystack.charAt(temporary)==needle.charAt(j))
                     {
                         temporary++;
                         j++;
