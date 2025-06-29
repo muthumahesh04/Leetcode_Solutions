@@ -4,17 +4,34 @@ class Solution
     {
         if(numRows==1)
            return s;
+
         StringBuilder result=new StringBuilder();
 
         for(int row=0 ; row<numRows ; row++)
         {
-            for(int index=row ; index<s.length() ; index+=(numRows-1)*2)
-            {
-                result.append(s.charAt(index));
+            int temp=row;
+            int flag=0;
 
-                if(index+(numRows-1)*2-(row*2)<s.length() && row>0 && row<numRows-1) //for middle rows
+            while(temp<s.length())
+            {
+                result.append(s.charAt(temp));
+
+                if(row==0 || row==numRows-1)
                 {
-                    result.append(s.charAt(index+(numRows-1)*2-(row*2)));
+                    temp+=(numRows-1)*2;
+                }
+                else
+                {
+                    if(flag%2==0)
+                    {
+                        temp+=(numRows-1)*2-(row*2);
+                        flag++;
+                    }
+                    else
+                    {
+                        temp+=row*2;
+                        flag++;
+                    }
                 }
             }
         }
