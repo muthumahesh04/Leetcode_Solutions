@@ -2,19 +2,20 @@ class Solution
 {
     public String convert(String s, int numRows) 
     {
+        if(numRows==1)
+           return s;
         StringBuilder result=new StringBuilder();
 
-        if(numRows==1)
-            return s;
-        for(int i=0 ; i<numRows ; i++)
+        for(int row=0 ; row<numRows ; row++)
         {
-            for(int j=i ; j<s.length() ; j+=(numRows-1)*2)
+            for(int index=row ; index<s.length() ; index+=(numRows-1)*2)
             {
-                result.append(s.charAt(j));
+                result.append(s.charAt(index));
 
-                //for the middle rows, append the middle characters
-                if(i>0 && i<numRows-1 && j+((numRows-1)*2)-(i*2)<s.length())
-                    result.append(s.charAt(j+((numRows-1)*2)-(i*2)));
+                if(index+(numRows-1)*2-(row*2)<s.length() && row>0 && row<numRows-1) //for middle rows
+                {
+                    result.append(s.charAt(index+(numRows-1)*2-(row*2)));
+                }
             }
         }
         return result.toString();
