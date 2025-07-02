@@ -2,9 +2,6 @@ class Solution
 {
     public int maxSubArray(int[] nums) 
     {
-        if(nums.length==1)
-           return nums[0];
-
         int maximum_subarray_sum=Integer.MIN_VALUE;
         int subarray_sum=0;
 
