@@ -10,8 +10,7 @@ class Solution
             subarray_sum+=nums[i];
 
             if(subarray_sum>maximum_subarray_sum)
-                maximum_subarray_sum=subarray_sum;
-
+                 maximum_subarray_sum=subarray_sum;
             if(subarray_sum<0)
                 subarray_sum=0;
         }
