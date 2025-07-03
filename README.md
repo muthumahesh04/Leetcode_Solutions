@@ -34,6 +34,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/muthumahesh04/Leetcode_Solutions/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0134-gas-station](https://github.com/muthumahesh04/Leetcode_Solutions/tree/master/0134-gas-station) |
 | [0135-candy](https://github.com/muthumahesh04/Leetcode_Solutions/tree/master/0135-candy) |
+| [0561-array-partition](https://github.com/muthumahesh04/Leetcode_Solutions/tree/master/0561-array-partition) |
 | [0678-valid-parenthesis-string](https://github.com/muthumahesh04/Leetcode_Solutions/tree/master/0678-valid-parenthesis-string) |
 ## Math
 |  |
@@ -80,6 +81,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0189-rotate-array](https://github.com/muthumahesh04/Leetcode_Solutions/tree/master/0189-rotate-array) |
 | [0238-product-of-array-except-self](https://github.com/muthumahesh04/Leetcode_Solutions/tree/master/0238-product-of-array-except-self) |
 | [0283-move-zeroes](https://github.com/muthumahesh04/Leetcode_Solutions/tree/master/0283-move-zeroes) |
+| [0561-array-partition](https://github.com/muthumahesh04/Leetcode_Solutions/tree/master/0561-array-partition) |
 | [0792-binary-search](https://github.com/muthumahesh04/Leetcode_Solutions/tree/master/0792-binary-search) |
 | [0932-monotonic-array](https://github.com/muthumahesh04/Leetcode_Solutions/tree/master/0932-monotonic-array) |
 | [2316-count-hills-and-valleys-in-an-array](https://github.com/muthumahesh04/Leetcode_Solutions/tree/master/2316-count-hills-and-valleys-in-an-array) |
@@ -90,6 +92,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0088-merge-sorted-array](https://github.com/muthumahesh04/Leetcode_Solutions/tree/master/0088-merge-sorted-array) |
 | [0169-majority-element](https://github.com/muthumahesh04/Leetcode_Solutions/tree/master/0169-majority-element) |
 | [0242-valid-anagram](https://github.com/muthumahesh04/Leetcode_Solutions/tree/master/0242-valid-anagram) |
+| [0561-array-partition](https://github.com/muthumahesh04/Leetcode_Solutions/tree/master/0561-array-partition) |
 ## Binary Search
 |  |
 | ------- |
@@ -165,4 +168,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0169-majority-element](https://github.com/muthumahesh04/Leetcode_Solutions/tree/master/0169-majority-element) |
+## Counting Sort
+|  |
+| ------- |
+| [0561-array-partition](https://github.com/muthumahesh04/Leetcode_Solutions/tree/master/0561-array-partition) |
 <!---LeetCode Topics End-->
