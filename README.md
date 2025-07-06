@@ -88,6 +88,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0792-binary-search](https://github.com/muthumahesh04/Leetcode_Solutions/tree/master/0792-binary-search) |
 | [0932-monotonic-array](https://github.com/muthumahesh04/Leetcode_Solutions/tree/master/0932-monotonic-array) |
 | [1833-find-the-highest-altitude](https://github.com/muthumahesh04/Leetcode_Solutions/tree/master/1833-find-the-highest-altitude) |
+| [2283-sort-even-and-odd-indices-independently](https://github.com/muthumahesh04/Leetcode_Solutions/tree/master/2283-sort-even-and-odd-indices-independently) |
 | [2316-count-hills-and-valleys-in-an-array](https://github.com/muthumahesh04/Leetcode_Solutions/tree/master/2316-count-hills-and-valleys-in-an-array) |
 | [2727-number-of-senior-citizens](https://github.com/muthumahesh04/Leetcode_Solutions/tree/master/2727-number-of-senior-citizens) |
 ## Sorting
@@ -98,6 +99,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0169-majority-element](https://github.com/muthumahesh04/Leetcode_Solutions/tree/master/0169-majority-element) |
 | [0242-valid-anagram](https://github.com/muthumahesh04/Leetcode_Solutions/tree/master/0242-valid-anagram) |
 | [0561-array-partition](https://github.com/muthumahesh04/Leetcode_Solutions/tree/master/0561-array-partition) |
+| [2283-sort-even-and-odd-indices-independently](https://github.com/muthumahesh04/Leetcode_Solutions/tree/master/2283-sort-even-and-odd-indices-independently) |
 ## Binary Search
 |  |
 | ------- |
