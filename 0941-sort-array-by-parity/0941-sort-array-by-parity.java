@@ -15,7 +15,7 @@ class Solution
                 even_no_pointer++;
                 odd_no_pointer++;
             }
-            else if(nums[odd_no_pointer]%2!=0)
+            else if(nums[odd_no_pointer]%2==1)
             {
                 odd_no_pointer++;
             }
