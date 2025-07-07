@@ -90,6 +90,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0792-binary-search](https://github.com/muthumahesh04/Leetcode_Solutions/tree/master/0792-binary-search) |
 | [0932-monotonic-array](https://github.com/muthumahesh04/Leetcode_Solutions/tree/master/0932-monotonic-array) |
 | [0941-sort-array-by-parity](https://github.com/muthumahesh04/Leetcode_Solutions/tree/master/0941-sort-array-by-parity) |
+| [1646-kth-missing-positive-number](https://github.com/muthumahesh04/Leetcode_Solutions/tree/master/1646-kth-missing-positive-number) |
 | [1833-find-the-highest-altitude](https://github.com/muthumahesh04/Leetcode_Solutions/tree/master/1833-find-the-highest-altitude) |
 | [2283-sort-even-and-odd-indices-independently](https://github.com/muthumahesh04/Leetcode_Solutions/tree/master/2283-sort-even-and-odd-indices-independently) |
 | [2316-count-hills-and-valleys-in-an-array](https://github.com/muthumahesh04/Leetcode_Solutions/tree/master/2316-count-hills-and-valleys-in-an-array) |
@@ -117,6 +118,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0162-find-peak-element](https://github.com/muthumahesh04/Leetcode_Solutions/tree/master/0162-find-peak-element) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/muthumahesh04/Leetcode_Solutions/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0792-binary-search](https://github.com/muthumahesh04/Leetcode_Solutions/tree/master/0792-binary-search) |
+| [1646-kth-missing-positive-number](https://github.com/muthumahesh04/Leetcode_Solutions/tree/master/1646-kth-missing-positive-number) |
 ## Matrix
 |  |
 | ------- |
