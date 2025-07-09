@@ -49,6 +49,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0189-rotate-array](https://github.com/muthumahesh04/Leetcode_Solutions/tree/master/0189-rotate-array) |
 | [0258-add-digits](https://github.com/muthumahesh04/Leetcode_Solutions/tree/master/0258-add-digits) |
 | [0504-base-7](https://github.com/muthumahesh04/Leetcode_Solutions/tree/master/0504-base-7) |
+| [0628-maximum-product-of-three-numbers](https://github.com/muthumahesh04/Leetcode_Solutions/tree/master/0628-maximum-product-of-three-numbers) |
 ## Simulation
 |  |
 | ------- |
@@ -91,6 +92,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0238-product-of-array-except-self](https://github.com/muthumahesh04/Leetcode_Solutions/tree/master/0238-product-of-array-except-self) |
 | [0283-move-zeroes](https://github.com/muthumahesh04/Leetcode_Solutions/tree/master/0283-move-zeroes) |
 | [0561-array-partition](https://github.com/muthumahesh04/Leetcode_Solutions/tree/master/0561-array-partition) |
+| [0628-maximum-product-of-three-numbers](https://github.com/muthumahesh04/Leetcode_Solutions/tree/master/0628-maximum-product-of-three-numbers) |
 | [0792-binary-search](https://github.com/muthumahesh04/Leetcode_Solutions/tree/master/0792-binary-search) |
 | [0932-monotonic-array](https://github.com/muthumahesh04/Leetcode_Solutions/tree/master/0932-monotonic-array) |
 | [0941-sort-array-by-parity](https://github.com/muthumahesh04/Leetcode_Solutions/tree/master/0941-sort-array-by-parity) |
@@ -110,6 +112,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0169-majority-element](https://github.com/muthumahesh04/Leetcode_Solutions/tree/master/0169-majority-element) |
 | [0242-valid-anagram](https://github.com/muthumahesh04/Leetcode_Solutions/tree/master/0242-valid-anagram) |
 | [0561-array-partition](https://github.com/muthumahesh04/Leetcode_Solutions/tree/master/0561-array-partition) |
+| [0628-maximum-product-of-three-numbers](https://github.com/muthumahesh04/Leetcode_Solutions/tree/master/0628-maximum-product-of-three-numbers) |
 | [0941-sort-array-by-parity](https://github.com/muthumahesh04/Leetcode_Solutions/tree/master/0941-sort-array-by-parity) |
 | [2283-sort-even-and-odd-indices-independently](https://github.com/muthumahesh04/Leetcode_Solutions/tree/master/2283-sort-even-and-odd-indices-independently) |
 ## Binary Search
