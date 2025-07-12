@@ -41,6 +41,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0135-candy](https://github.com/muthumahesh04/Leetcode_Solutions/tree/master/0135-candy) |
 | [0561-array-partition](https://github.com/muthumahesh04/Leetcode_Solutions/tree/master/0561-array-partition) |
 | [0678-valid-parenthesis-string](https://github.com/muthumahesh04/Leetcode_Solutions/tree/master/0678-valid-parenthesis-string) |
+| [2199-two-furthest-houses-with-different-colors](https://github.com/muthumahesh04/Leetcode_Solutions/tree/master/2199-two-furthest-houses-with-different-colors) |
 ## Math
 |  |
 | ------- |
@@ -98,6 +99,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0941-sort-array-by-parity](https://github.com/muthumahesh04/Leetcode_Solutions/tree/master/0941-sort-array-by-parity) |
 | [1646-kth-missing-positive-number](https://github.com/muthumahesh04/Leetcode_Solutions/tree/master/1646-kth-missing-positive-number) |
 | [1833-find-the-highest-altitude](https://github.com/muthumahesh04/Leetcode_Solutions/tree/master/1833-find-the-highest-altitude) |
+| [2199-two-furthest-houses-with-different-colors](https://github.com/muthumahesh04/Leetcode_Solutions/tree/master/2199-two-furthest-houses-with-different-colors) |
 | [2283-sort-even-and-odd-indices-independently](https://github.com/muthumahesh04/Leetcode_Solutions/tree/master/2283-sort-even-and-odd-indices-independently) |
 | [2316-count-hills-and-valleys-in-an-array](https://github.com/muthumahesh04/Leetcode_Solutions/tree/master/2316-count-hills-and-valleys-in-an-array) |
 | [2727-number-of-senior-citizens](https://github.com/muthumahesh04/Leetcode_Solutions/tree/master/2727-number-of-senior-citizens) |
