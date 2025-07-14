@@ -104,6 +104,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2283-sort-even-and-odd-indices-independently](https://github.com/muthumahesh04/Leetcode_Solutions/tree/master/2283-sort-even-and-odd-indices-independently) |
 | [2316-count-hills-and-valleys-in-an-array](https://github.com/muthumahesh04/Leetcode_Solutions/tree/master/2316-count-hills-and-valleys-in-an-array) |
 | [2727-number-of-senior-citizens](https://github.com/muthumahesh04/Leetcode_Solutions/tree/master/2727-number-of-senior-citizens) |
+| [3723-sum-of-good-numbers](https://github.com/muthumahesh04/Leetcode_Solutions/tree/master/3723-sum-of-good-numbers) |
 ## Sorting
 |  |
 | ------- |
