@@ -16,7 +16,7 @@ class Solution
         int totalelements=n1+n2;
         while(low<=high)
         {
-            int mid1=(low+high)/2;
+            int mid1=low+(high-low)/2;
             int mid2=left-mid1;//because 
             int r1=Integer.MAX_VALUE,r2=Integer.MAX_VALUE,l1=Integer.MIN_VALUE,l2=Integer.MIN_VALUE;
             if(mid1<n1) r1=nums1[mid1];
