@@ -2,40 +2,40 @@ class Solution
 {
     public double findMedianSortedArrays(int[] nums1, int[] nums2) 
     {
-        int m=nums1.length;
-        int n=nums2.length;
-        if(n<m)
-          return findMedianSortedArrays(nums2,nums1);
-        
-        int total_numbers_must_left_half=(m+n+1)/2;
-        int low=0;
-        int high=m;
-        int l1=Integer.MIN_VALUE;
-        int l2=Integer.MIN_VALUE;
-        int r1=Integer.MAX_VALUE;
-        int r2=Integer.MAX_VALUE;
+        int n1=nums1.length;
+        int n2=nums2.length;
 
+        if(n1>n2)
+          return findMedianSortedArrays(nums2,nums1);//if (n2,b[]) is small array.swap .
+        
+        int low=0;
+        int high=n1;
+        
+        int left=(n1+n2+1)/2;//this tells how many elements should be in the left of symmetry.remaining elements in arrays automatically assumed 
+                             //in right half
+        int totalelements=n1+n2;
         while(low<=high)
         {
-            int total_numbers_from_nums1=low+(high-low)/2;
-            int total_numbers_from_nums2=total_numbers_must_left_half-total_numbers_from_nums1;
-
-            l1=(total_numbers_from_nums1-1==-1) ? Integer.MIN_VALUE : nums1[total_numbers_from_nums1-1];
-            l2=(total_numbers_from_nums2-1==-1) ? Integer.MIN_VALUE : nums2[total_numbers_from_nums2-1];
-            r1=(total_numbers_from_nums1==m) ? Integer.MAX_VALUE : nums1[total_numbers_from_nums1];
-            r2=(total_numbers_from_nums2==n) ? Integer.MAX_VALUE : nums2[total_numbers_from_nums2];
-
+            int mid1=(low+high)/2;
+            int mid2=left-mid1;//because 
+            int r1=Integer.MAX_VALUE,r2=Integer.MAX_VALUE,l1=Integer.MIN_VALUE,l2=Integer.MIN_VALUE;
+            if(mid1<n1) r1=nums1[mid1];
+            if(mid2<n2) r2=nums2[mid2];
+            if(mid1-1>=0) l1=nums1[mid1-1];
+            if(mid2-1>=0) l2=nums2[mid2-1];
+            
             if(l1<=r2 && l2<=r1)
             {
-                if((m+n)%2==1)
-                   return (double)(Math.max(l1,l2));
-                return (Math.max(l1,l2)+Math.min(r1,r2))/2.0;
+                if(totalelements%2==1)
+                   return Math.max(l1,l2);
+                else
+                   return (double)(Math.max(l1,l2)+Math.min(r1,r2))/2.0;
             }
             else if(l1>r2)
-                high=total_numbers_from_nums1-1;
+               high=mid1-1;
             else
-                low=total_numbers_from_nums1+1;
+              low=mid1+1;
         }
-        return 0.0;
+        return 0;
     }
 }
