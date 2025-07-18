@@ -2,27 +2,30 @@ class Solution
 {
     public int canCompleteCircuit(int[] gas, int[] cost) 
     {
-        int total_Available=0;
-        int total_Need=0;
-        for(int i=0 ; i<gas.length ; i++)
-        {
-            total_Available+=gas[i];
-            total_Need+=cost[i];
-        }
-        if(total_Need>total_Available)
-            return -1;
+        int gas_exist=0;
+        int required_gas=0;
         
-        int gas_in_tank=0;
-        int starting_index=0;
         for(int i=0 ; i<gas.length ; i++)
         {
-            gas_in_tank+=(gas[i]-cost[i]);
+            gas_exist+=gas[i];
+            required_gas+=cost[i];
+        }
+        if(required_gas>gas_exist)
+          return -1;
+        
+        int starting_index=0;
+        int gas_remaining_in_tank=0;
 
-            if(gas_in_tank<0)
+        for(int i=0 ; i<gas.length ; i++)
+        {
+            if(gas_remaining_in_tank+gas[i] >= cost[i])
+            {
+                gas_remaining_in_tank+=(gas[i]-cost[i]);
+            }
+            else
             {
                 starting_index=i+1;
-                gas_in_tank=0;
-                continue;
+                gas_remaining_in_tank=0;
             }
         }
         return starting_index;
