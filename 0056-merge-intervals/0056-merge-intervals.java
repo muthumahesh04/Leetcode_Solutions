@@ -1,17 +1,17 @@
 class Solution 
 {
-    public void sort_intervals(int intervals[][])
+    public void sort_intervals(int[][] arr)
     {
-        //Bubble sort to sort the intervals
-        for(int i=0 ; i<intervals.length-1 ; i++)
+        int length=arr.length;
+        for(int i=0 ; i<length ; i++)
         {
-            for(int j=0 ; j<intervals.length-i-1 ; j++)
+            for(int j=0 ; j<length-i-1 ; j++)
             {
-                if(intervals[j][0]>intervals[j+1][0])
+                if(arr[j][0]>arr[j+1][0])
                 {
-                    int temp[]=intervals[j];
-                    intervals[j]=intervals[j+1];
-                    intervals[j+1]=temp;
+                    int[] temp=arr[j];
+                    arr[j]=arr[j+1];
+                    arr[j+1]=temp;
                 }
             }
         }
@@ -19,8 +19,8 @@ class Solution
     public int[][] merge(int[][] intervals) 
     {
         sort_intervals(intervals);
-
-        List<int[]> merged_Intervals=new ArrayList<>();
+        
+        List<int[]> result=new ArrayList<>();
 
         int start=intervals[0][0];
         int end=intervals[0][1];
@@ -33,19 +33,19 @@ class Solution
             }
             else
             {
-                merged_Intervals.add(new int[]{start,end});
+                result.add(new int[]{start,end});
                 start=intervals[i][0];
                 end=intervals[i][1];
             }
         }
-        merged_Intervals.add(new int[]{start,end});
+        result.add(new int[]{start,end});
 
-        int result[][]=new int[merged_Intervals.size()][2];
-        for(int i=0;i<merged_Intervals.size();i++)
+        int answer[][]=new int[result.size()][];
+        for(int i=0 ; i<result.size() ; i++)
         {
-            result[i][0]=merged_Intervals.get(i)[0];
-            result[i][1]=merged_Intervals.get(i)[1];
+            answer[i]=result.get(i);
         }
-        return result;
+        return answer;
     }
+    
 }
