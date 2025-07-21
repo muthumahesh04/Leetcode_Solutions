@@ -77,6 +77,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0045-jump-game-ii](https://github.com/muthumahesh04/Leetcode_Solutions/tree/master/0045-jump-game-ii) |
 | [0053-maximum-subarray](https://github.com/muthumahesh04/Leetcode_Solutions/tree/master/0053-maximum-subarray) |
 | [0056-merge-intervals](https://github.com/muthumahesh04/Leetcode_Solutions/tree/master/0056-merge-intervals) |
+| [0057-insert-interval](https://github.com/muthumahesh04/Leetcode_Solutions/tree/master/0057-insert-interval) |
 | [0074-search-a-2d-matrix](https://github.com/muthumahesh04/Leetcode_Solutions/tree/master/0074-search-a-2d-matrix) |
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/muthumahesh04/Leetcode_Solutions/tree/master/0080-remove-duplicates-from-sorted-array-ii) |
 | [0081-search-in-rotated-sorted-array-ii](https://github.com/muthumahesh04/Leetcode_Solutions/tree/master/0081-search-in-rotated-sorted-array-ii) |
