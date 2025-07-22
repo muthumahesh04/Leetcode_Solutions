@@ -1,31 +1,33 @@
-class Solution {
-    public boolean checkValidString(String s) {
-        int min_open=0;
-        int max_open=0;
+class Solution 
+{
+    public boolean checkValidString(String s) 
+    {
+        int minimum_possible_unmatched_open_brackets=0;
+        int maximum_possible_unmatched_open_brackets=0;
 
         for(int i=0 ; i<s.length() ; i++)
         {
             if(s.charAt(i)=='(')
             {
-                min_open++;
-                max_open++;
+                minimum_possible_unmatched_open_brackets++;
+                maximum_possible_unmatched_open_brackets++;
             }
-            else if(s.charAt(i)==')')
+            else if(s.charAt(i)=='*')
             {
-                if(min_open>0)
-                   min_open--;
-                max_open--;
+                if(minimum_possible_unmatched_open_brackets>0)
+                   minimum_possible_unmatched_open_brackets--;
+                maximum_possible_unmatched_open_brackets++;
             }
-            else
+            else//if it is the closing bracket
             {
-                if(min_open>0)
-                   min_open--; //treated * as ) or ""
-                max_open++;    //treated * as (
+                if(minimum_possible_unmatched_open_brackets>0)
+                   minimum_possible_unmatched_open_brackets--;
+                maximum_possible_unmatched_open_brackets--;
             }
-            if(max_open<0) 
+
+            if(maximum_possible_unmatched_open_brackets<0)
                return false;
-            
         }
-        return min_open==0;
+        return minimum_possible_unmatched_open_brackets==0;
     }
 }
