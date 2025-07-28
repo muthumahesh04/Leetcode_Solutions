@@ -99,6 +99,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0561-array-partition](https://github.com/muthumahesh04/Leetcode_Solutions/tree/master/0561-array-partition) |
 | [0628-maximum-product-of-three-numbers](https://github.com/muthumahesh04/Leetcode_Solutions/tree/master/0628-maximum-product-of-three-numbers) |
 | [0792-binary-search](https://github.com/muthumahesh04/Leetcode_Solutions/tree/master/0792-binary-search) |
+| [0907-koko-eating-bananas](https://github.com/muthumahesh04/Leetcode_Solutions/tree/master/0907-koko-eating-bananas) |
 | [0932-monotonic-array](https://github.com/muthumahesh04/Leetcode_Solutions/tree/master/0932-monotonic-array) |
 | [0941-sort-array-by-parity](https://github.com/muthumahesh04/Leetcode_Solutions/tree/master/0941-sort-array-by-parity) |
 | [1646-kth-missing-positive-number](https://github.com/muthumahesh04/Leetcode_Solutions/tree/master/1646-kth-missing-positive-number) |
@@ -137,6 +138,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0162-find-peak-element](https://github.com/muthumahesh04/Leetcode_Solutions/tree/master/0162-find-peak-element) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/muthumahesh04/Leetcode_Solutions/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0792-binary-search](https://github.com/muthumahesh04/Leetcode_Solutions/tree/master/0792-binary-search) |
+| [0907-koko-eating-bananas](https://github.com/muthumahesh04/Leetcode_Solutions/tree/master/0907-koko-eating-bananas) |
 | [1646-kth-missing-positive-number](https://github.com/muthumahesh04/Leetcode_Solutions/tree/master/1646-kth-missing-positive-number) |
 ## Matrix
 |  |
