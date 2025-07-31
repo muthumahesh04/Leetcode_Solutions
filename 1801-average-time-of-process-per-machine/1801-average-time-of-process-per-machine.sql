@@ -11,7 +11,7 @@
 -- select machine_id,processing_time
 -- from processing_time_per_machine
 -- group by machine_id;
-SELECT b.machine_id, 
+SELECT a.machine_id, 
        ROUND(AVG(b.timestamp - a.timestamp), 3) AS processing_time
 FROM Activity a JOIN Activity b 
 ON a.machine_id = b.machine_id AND 
