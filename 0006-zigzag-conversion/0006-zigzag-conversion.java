@@ -2,39 +2,24 @@ class Solution
 {
     public String convert(String s, int numRows) 
     {
+        StringBuilder sb=new StringBuilder();
+
         if(numRows==1)
-           return s;
-
-        StringBuilder result=new StringBuilder();
-
+          return s;
+        
         for(int row=0 ; row<numRows ; row++)
         {
-            int temp=row;
-            int flag=0;
-
-            while(temp<s.length())
+            for(int j=row ; j<s.length() ; j+=(numRows-1)*2)
             {
-                result.append(s.charAt(temp));
+                sb.append(s.charAt(j));
 
-                if(row==0 || row==numRows-1)
+                if(row>0 && row<numRows-1)
                 {
-                    temp+=(numRows-1)*2;
-                }
-                else
-                {
-                    if(flag%2==0)
-                    {
-                        temp+=(numRows-1)*2-(row*2);
-                        flag++;
-                    }
-                    else
-                    {
-                        temp+=row*2;
-                        flag++;
-                    }
+                    if(j+(numRows-1)*2-(2*row)<s.length())
+                       sb.append(s.charAt(j+(numRows-1)*2-(2*row)));
                 }
             }
         }
-        return result.toString();
+        return sb.toString();
     }
 }
