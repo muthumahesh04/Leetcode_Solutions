@@ -2,36 +2,32 @@ class Solution
 {
     public int candy(int[] ratings) 
     {
-        int sum=1;
-        int i=1;
+        int minimum_chocolates=1; //the first children is always assigned with a chocolate
 
-        while(i<ratings.length)
+        int index=1;
+
+        while(index < ratings.length)
         {
-            if(ratings[i]==ratings[i-1])
+            int upwards=1;
+            while(index<ratings.length && ratings[index]>ratings[index-1])
             {
-                sum+=1;
-                i++;
-                continue;
+                minimum_chocolates+=(++upwards);
+                index++;
             }
-            int peak=1;
-            while(i<ratings.length && ratings[i]>ratings[i-1])
+            int downwards=1;
+            while(index<ratings.length && ratings[index]<ratings[index-1])
             {
-                peak+=1;
-                sum+=peak;
-                i++;
+                minimum_chocolates+=downwards++;
+                index++;
             }
-            int down=1;
-            while(i<ratings.length && ratings[i]<ratings[i-1])
+            while(index<ratings.length && ratings[index]==ratings[index-1])
             {
-                sum+=down;
-                down+=1;
-                i++;
+                minimum_chocolates+=1;
+                index++;
             }
-            if(down>peak)
-            {
-                sum=sum-peak+down;
-            }
+            if(downwards>upwards)
+               minimum_chocolates=minimum_chocolates+(downwards-upwards);
         }
-        return sum;
+        return minimum_chocolates;
     }
 }
