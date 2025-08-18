@@ -58,6 +58,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0048-rotate-image](https://github.com/muthumahesh04/Leetcode_Solutions/tree/master/0048-rotate-image) |
 | [0070-climbing-stairs](https://github.com/muthumahesh04/Leetcode_Solutions/tree/master/0070-climbing-stairs) |
 | [0189-rotate-array](https://github.com/muthumahesh04/Leetcode_Solutions/tree/master/0189-rotate-array) |
+| [0202-happy-number](https://github.com/muthumahesh04/Leetcode_Solutions/tree/master/0202-happy-number) |
 | [0258-add-digits](https://github.com/muthumahesh04/Leetcode_Solutions/tree/master/0258-add-digits) |
 | [0504-base-7](https://github.com/muthumahesh04/Leetcode_Solutions/tree/master/0504-base-7) |
 | [0628-maximum-product-of-three-numbers](https://github.com/muthumahesh04/Leetcode_Solutions/tree/master/0628-maximum-product-of-three-numbers) |
@@ -190,6 +191,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0012-integer-to-roman](https://github.com/muthumahesh04/Leetcode_Solutions/tree/master/0012-integer-to-roman) |
 | [0036-valid-sudoku](https://github.com/muthumahesh04/Leetcode_Solutions/tree/master/0036-valid-sudoku) |
 | [0169-majority-element](https://github.com/muthumahesh04/Leetcode_Solutions/tree/master/0169-majority-element) |
+| [0202-happy-number](https://github.com/muthumahesh04/Leetcode_Solutions/tree/master/0202-happy-number) |
 | [0217-contains-duplicate](https://github.com/muthumahesh04/Leetcode_Solutions/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/muthumahesh04/Leetcode_Solutions/tree/master/0242-valid-anagram) |
 ## Two Pointers
@@ -208,6 +210,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0151-reverse-words-in-a-string](https://github.com/muthumahesh04/Leetcode_Solutions/tree/master/0151-reverse-words-in-a-string) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/muthumahesh04/Leetcode_Solutions/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0189-rotate-array](https://github.com/muthumahesh04/Leetcode_Solutions/tree/master/0189-rotate-array) |
+| [0202-happy-number](https://github.com/muthumahesh04/Leetcode_Solutions/tree/master/0202-happy-number) |
 | [0283-move-zeroes](https://github.com/muthumahesh04/Leetcode_Solutions/tree/master/0283-move-zeroes) |
 | [0541-reverse-string-ii](https://github.com/muthumahesh04/Leetcode_Solutions/tree/master/0541-reverse-string-ii) |
 | [0941-sort-array-by-parity](https://github.com/muthumahesh04/Leetcode_Solutions/tree/master/0941-sort-array-by-parity) |
