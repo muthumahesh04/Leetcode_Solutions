@@ -12,6 +12,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/muthumahesh04/Leetcode_Solutions/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0151-reverse-words-in-a-string](https://github.com/muthumahesh04/Leetcode_Solutions/tree/master/0151-reverse-words-in-a-string) |
 | [0242-valid-anagram](https://github.com/muthumahesh04/Leetcode_Solutions/tree/master/0242-valid-anagram) |
+| [0383-ransom-note](https://github.com/muthumahesh04/Leetcode_Solutions/tree/master/0383-ransom-note) |
 | [0474-ones-and-zeroes](https://github.com/muthumahesh04/Leetcode_Solutions/tree/master/0474-ones-and-zeroes) |
 | [0541-reverse-string-ii](https://github.com/muthumahesh04/Leetcode_Solutions/tree/master/0541-reverse-string-ii) |
 | [0678-valid-parenthesis-string](https://github.com/muthumahesh04/Leetcode_Solutions/tree/master/0678-valid-parenthesis-string) |
@@ -194,6 +195,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0202-happy-number](https://github.com/muthumahesh04/Leetcode_Solutions/tree/master/0202-happy-number) |
 | [0217-contains-duplicate](https://github.com/muthumahesh04/Leetcode_Solutions/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/muthumahesh04/Leetcode_Solutions/tree/master/0242-valid-anagram) |
+| [0383-ransom-note](https://github.com/muthumahesh04/Leetcode_Solutions/tree/master/0383-ransom-note) |
 ## Two Pointers
 |  |
 | ------- |
@@ -243,6 +245,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0169-majority-element](https://github.com/muthumahesh04/Leetcode_Solutions/tree/master/0169-majority-element) |
+| [0383-ransom-note](https://github.com/muthumahesh04/Leetcode_Solutions/tree/master/0383-ransom-note) |
 ## Counting Sort
 |  |
 | ------- |
