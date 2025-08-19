@@ -114,6 +114,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0217-contains-duplicate](https://github.com/muthumahesh04/Leetcode_Solutions/tree/master/0217-contains-duplicate) |
 | [0238-product-of-array-except-self](https://github.com/muthumahesh04/Leetcode_Solutions/tree/master/0238-product-of-array-except-self) |
 | [0283-move-zeroes](https://github.com/muthumahesh04/Leetcode_Solutions/tree/master/0283-move-zeroes) |
+| [0303-range-sum-query-immutable](https://github.com/muthumahesh04/Leetcode_Solutions/tree/master/0303-range-sum-query-immutable) |
 | [0410-split-array-largest-sum](https://github.com/muthumahesh04/Leetcode_Solutions/tree/master/0410-split-array-largest-sum) |
 | [0474-ones-and-zeroes](https://github.com/muthumahesh04/Leetcode_Solutions/tree/master/0474-ones-and-zeroes) |
 | [0561-array-partition](https://github.com/muthumahesh04/Leetcode_Solutions/tree/master/0561-array-partition) |
@@ -221,6 +222,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0238-product-of-array-except-self](https://github.com/muthumahesh04/Leetcode_Solutions/tree/master/0238-product-of-array-except-self) |
+| [0303-range-sum-query-immutable](https://github.com/muthumahesh04/Leetcode_Solutions/tree/master/0303-range-sum-query-immutable) |
 | [0410-split-array-largest-sum](https://github.com/muthumahesh04/Leetcode_Solutions/tree/master/0410-split-array-largest-sum) |
 | [1833-find-the-highest-altitude](https://github.com/muthumahesh04/Leetcode_Solutions/tree/master/1833-find-the-highest-altitude) |
 ## Backtracking
@@ -254,6 +256,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0155-min-stack](https://github.com/muthumahesh04/Leetcode_Solutions/tree/master/0155-min-stack) |
+| [0303-range-sum-query-immutable](https://github.com/muthumahesh04/Leetcode_Solutions/tree/master/0303-range-sum-query-immutable) |
 ## Memoization
 |  |
 | ------- |
