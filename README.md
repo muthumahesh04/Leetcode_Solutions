@@ -97,6 +97,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0056-merge-intervals](https://github.com/muthumahesh04/Leetcode_Solutions/tree/master/0056-merge-intervals) |
 | [0057-insert-interval](https://github.com/muthumahesh04/Leetcode_Solutions/tree/master/0057-insert-interval) |
 | [0074-search-a-2d-matrix](https://github.com/muthumahesh04/Leetcode_Solutions/tree/master/0074-search-a-2d-matrix) |
+| [0078-subsets](https://github.com/muthumahesh04/Leetcode_Solutions/tree/master/0078-subsets) |
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/muthumahesh04/Leetcode_Solutions/tree/master/0080-remove-duplicates-from-sorted-array-ii) |
 | [0081-search-in-rotated-sorted-array-ii](https://github.com/muthumahesh04/Leetcode_Solutions/tree/master/0081-search-in-rotated-sorted-array-ii) |
 | [0088-merge-sorted-array](https://github.com/muthumahesh04/Leetcode_Solutions/tree/master/0088-merge-sorted-array) |
@@ -232,6 +233,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0022-generate-parentheses](https://github.com/muthumahesh04/Leetcode_Solutions/tree/master/0022-generate-parentheses) |
+| [0078-subsets](https://github.com/muthumahesh04/Leetcode_Solutions/tree/master/0078-subsets) |
 | [0090-subsets-ii](https://github.com/muthumahesh04/Leetcode_Solutions/tree/master/0090-subsets-ii) |
 ## String Matching
 |  |
@@ -273,5 +275,6 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Bit Manipulation
 |  |
 | ------- |
+| [0078-subsets](https://github.com/muthumahesh04/Leetcode_Solutions/tree/master/0078-subsets) |
 | [0090-subsets-ii](https://github.com/muthumahesh04/Leetcode_Solutions/tree/master/0090-subsets-ii) |
 <!---LeetCode Topics End-->
