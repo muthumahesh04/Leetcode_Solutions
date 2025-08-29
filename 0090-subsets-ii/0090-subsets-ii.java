@@ -20,6 +20,7 @@ class Solution {
         tempList.add(arr[index]);
         Subsets(arr,index+1,result,tempList);
         tempList.remove(tempList.size()-1);
+        
         Subsets(arr,index+1,result,tempList);
     }
 }
