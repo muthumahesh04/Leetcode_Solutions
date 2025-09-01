@@ -4,17 +4,17 @@ class Solution
     {
         List<List<Integer>> result=new ArrayList<>();
 
-        for(int row=1 ; row<=numRows ; row++)
+        for(int row=1 ; row<= numRows ; row++)
         {
-            List<Integer> list=new ArrayList<>();
+            List<Integer> tempList=new ArrayList<>();
 
-            int first=1;
-            for(int column=1 ; column<=row ; column++)
+            int number=1;
+            for(int col=1 ; col<=row ; col++)
             {
-                list.add(first);
-                first=first*(row-column)/column;
+                tempList.add(number);
+                number=number*(row-col)/col;
             }
-            result.add(list);
+            result.add(tempList);
         }
         return result;
     }
