@@ -3,20 +3,23 @@ class Solution
     public List<List<Integer>> subsets(int[] nums) 
     {
         List<List<Integer>> result=new ArrayList<>();
-        Subsets(nums,0,result,new ArrayList<>());
 
-        return result; 
+        generateSubsets(result,new ArrayList<>(),nums,0);
+
+        return result;
     }
-    public void Subsets(int arr[],int index,List<List<Integer>> result,List<Integer> tempList)
+    public void generateSubsets(List<List<Integer>> result,List<Integer> tempList,int nums[],int index)
     {
-        if(index==arr.length)
+        if(index==nums.length)
         {
             result.add(new ArrayList<>(tempList));
             return;
         }
-        tempList.add(arr[index]);
-        Subsets(arr,index+1,result,tempList);
+
+        tempList.add(nums[index]);
+        generateSubsets(result,tempList,nums,index+1);
+
         tempList.remove(tempList.size()-1);
-        Subsets(arr,index+1,result,tempList);
+        generateSubsets(result,tempList,nums,index+1);
     }
 }
