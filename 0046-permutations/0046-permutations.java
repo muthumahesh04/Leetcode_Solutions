@@ -4,26 +4,25 @@ class Solution
     {
         List<List<Integer>> result=new ArrayList<>();
 
-        backtrack(nums,result,new ArrayList<>());
+        GeneratePermutations(result,new ArrayList<>(),nums);
 
         return result;
     }
-    public void backtrack(int nums[],List<List<Integer>> result,List<Integer> tempList)
+    public void GeneratePermutations(List<List<Integer>> result,List<Integer> tempList,int nums[])
     {
         if(tempList.size()==nums.length)
         {
             result.add(new ArrayList<>(tempList));
             return;
         }
+
         for(int num:nums)
         {
             if(tempList.contains(num))
                continue;
-            
+           
             tempList.add(num);
-
-            backtrack(nums,result,tempList);
-
+            GeneratePermutations(result,tempList,nums);
             tempList.remove(tempList.size()-1);
         }
     }
