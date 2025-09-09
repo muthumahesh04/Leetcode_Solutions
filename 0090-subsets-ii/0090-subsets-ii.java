@@ -1,10 +1,12 @@
-class Solution {
+class Solution 
+{
     public List<List<Integer>> subsetsWithDup(int[] nums) {
         List<List<Integer>> result=new ArrayList<>();
 
         Arrays.sort(nums);
 
         Subsets(nums,0,result,new ArrayList<>());
+        
 
         return result; 
     }
@@ -12,7 +14,7 @@ class Solution {
     {
         if(result.contains(tempList))
            return;
-        if(index==arr.length && !result.contains(tempList))
+        if(index==arr.length)
         {
             result.add(new ArrayList<>(tempList));
             return;
