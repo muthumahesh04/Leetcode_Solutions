@@ -5,7 +5,7 @@ class Solution
         List<List<Integer>> result=new ArrayList<>();
         boolean[] isTaken=new boolean[nums.length];
 
-        Arrays.sort(nums);
+       
         GeneratePermutations(result,new ArrayList<>(),nums,isTaken);
 
         return result;
