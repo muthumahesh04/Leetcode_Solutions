@@ -10,8 +10,9 @@ class Solution {
     }
     public void Subsets(int arr[],int index,List<List<Integer>> result,List<Integer> tempList)
     {
-        
-        if(index==arr.length)
+        if(result.contains(tempList))
+           return;
+        if(index==arr.length && !result.contains(tempList))
         {
             result.add(new ArrayList<>(tempList));
             return;
@@ -19,7 +20,7 @@ class Solution {
         tempList.add(arr[index]);
         Subsets(arr,index+1,result,tempList);
         tempList.remove(tempList.size()-1);
-        while(index<arr.length-1 && arr[index]==arr[index+1]) index++;
+        
         Subsets(arr,index+1,result,tempList);
     }
 }
