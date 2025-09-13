@@ -3,45 +3,47 @@ class Solution
     public List<Integer> spiralOrder(int[][] matrix) 
     {
         List<Integer> result=new ArrayList<>();
-        int rows=matrix.length;
-        int columns=matrix[0].length;
-        
-        int row_start=0;
-        int row_end=rows-1;
-        int col_start=0;
-        int col_end=columns-1;
-        
-        while(row_start<=row_end && col_start<=col_end)
+
+        int top=0;
+        int bottom=matrix.length-1;
+        int left=0;
+        int right=matrix[0].length-1;
+
+        while(top<=bottom && left<=right)
         {
-            for(int i=col_start;i<=col_end;i++)//print left to right
+            //from left to right
+            for(int i=left ; i<=right ; i++)
             {
-                result.add(matrix[row_start][i]);
-                
+                result.add(matrix[top][i]);
             }
-            row_start++;
-            for(int i=row_start;i<=row_end;i++)//print from top to bottom
+            top++;
+
+            //from top to bottom
+            for(int i=top ; i<=bottom ; i++)
             {
-                result.add(matrix[i][col_end]);
-                
+                result.add(matrix[i][right]);
             }
-            col_end--;
-            if(row_start<=row_end)
+            right--;
+
+            if(top<=bottom)
             {
-                for(int i=col_end;i>=col_start;i--)//print from right to left
+                //from right to left
+                for(int i=right ; i>=left ; i--)
                 {
-                    result.add(matrix[row_end][i]);
-                
+                    result.add(matrix[bottom][i]);
                 }
+                bottom--;
             }
-            row_end--;
-            if(col_start<=col_end)
+            
+            if(left<=right)
             {
-                for(int i=row_end;i>=row_start;i--)//print from bottom to top
+                //from bottom to top
+                for(int i=bottom ; i>=top ; i--)
                 {
-                     result.add(matrix[i][col_start]);
+                    result.add(matrix[i][left]);
                 }
+                left++;
             }
-            col_start++;
         }
         return result;
     }
