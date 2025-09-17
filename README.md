@@ -21,6 +21,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0541-reverse-string-ii](https://github.com/muthumahesh04/Leetcode_Solutions/tree/master/0541-reverse-string-ii) |
 | [0678-valid-parenthesis-string](https://github.com/muthumahesh04/Leetcode_Solutions/tree/master/0678-valid-parenthesis-string) |
 | [0953-reverse-only-letters](https://github.com/muthumahesh04/Leetcode_Solutions/tree/master/0953-reverse-only-letters) |
+| [1709-alert-using-same-key-card-three-or-more-times-in-a-one-hour-period](https://github.com/muthumahesh04/Leetcode_Solutions/tree/master/1709-alert-using-same-key-card-three-or-more-times-in-a-one-hour-period) |
 | [2727-number-of-senior-citizens](https://github.com/muthumahesh04/Leetcode_Solutions/tree/master/2727-number-of-senior-citizens) |
 ## Dynamic Programming
 |  |
@@ -134,6 +135,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0932-monotonic-array](https://github.com/muthumahesh04/Leetcode_Solutions/tree/master/0932-monotonic-array) |
 | [0941-sort-array-by-parity](https://github.com/muthumahesh04/Leetcode_Solutions/tree/master/0941-sort-array-by-parity) |
 | [1646-kth-missing-positive-number](https://github.com/muthumahesh04/Leetcode_Solutions/tree/master/1646-kth-missing-positive-number) |
+| [1709-alert-using-same-key-card-three-or-more-times-in-a-one-hour-period](https://github.com/muthumahesh04/Leetcode_Solutions/tree/master/1709-alert-using-same-key-card-three-or-more-times-in-a-one-hour-period) |
 | [1833-find-the-highest-altitude](https://github.com/muthumahesh04/Leetcode_Solutions/tree/master/1833-find-the-highest-altitude) |
 | [2199-two-furthest-houses-with-different-colors](https://github.com/muthumahesh04/Leetcode_Solutions/tree/master/2199-two-furthest-houses-with-different-colors) |
 | [2283-sort-even-and-odd-indices-independently](https://github.com/muthumahesh04/Leetcode_Solutions/tree/master/2283-sort-even-and-odd-indices-independently) |
@@ -155,6 +157,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0561-array-partition](https://github.com/muthumahesh04/Leetcode_Solutions/tree/master/0561-array-partition) |
 | [0628-maximum-product-of-three-numbers](https://github.com/muthumahesh04/Leetcode_Solutions/tree/master/0628-maximum-product-of-three-numbers) |
 | [0941-sort-array-by-parity](https://github.com/muthumahesh04/Leetcode_Solutions/tree/master/0941-sort-array-by-parity) |
+| [1709-alert-using-same-key-card-three-or-more-times-in-a-one-hour-period](https://github.com/muthumahesh04/Leetcode_Solutions/tree/master/1709-alert-using-same-key-card-three-or-more-times-in-a-one-hour-period) |
 | [2283-sort-even-and-odd-indices-independently](https://github.com/muthumahesh04/Leetcode_Solutions/tree/master/2283-sort-even-and-odd-indices-independently) |
 ## Binary Search
 |  |
@@ -211,6 +214,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0217-contains-duplicate](https://github.com/muthumahesh04/Leetcode_Solutions/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/muthumahesh04/Leetcode_Solutions/tree/master/0242-valid-anagram) |
 | [0383-ransom-note](https://github.com/muthumahesh04/Leetcode_Solutions/tree/master/0383-ransom-note) |
+| [1709-alert-using-same-key-card-three-or-more-times-in-a-one-hour-period](https://github.com/muthumahesh04/Leetcode_Solutions/tree/master/1709-alert-using-same-key-card-three-or-more-times-in-a-one-hour-period) |
 ## Two Pointers
 |  |
 | ------- |
