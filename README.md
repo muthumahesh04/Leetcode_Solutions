@@ -72,6 +72,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0258-add-digits](https://github.com/muthumahesh04/Leetcode_Solutions/tree/master/0258-add-digits) |
 | [0504-base-7](https://github.com/muthumahesh04/Leetcode_Solutions/tree/master/0504-base-7) |
 | [0628-maximum-product-of-three-numbers](https://github.com/muthumahesh04/Leetcode_Solutions/tree/master/0628-maximum-product-of-three-numbers) |
+| [0866-rectangle-overlap](https://github.com/muthumahesh04/Leetcode_Solutions/tree/master/0866-rectangle-overlap) |
 | [1013-fibonacci-number](https://github.com/muthumahesh04/Leetcode_Solutions/tree/master/1013-fibonacci-number) |
 ## Simulation
 |  |
@@ -306,4 +307,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/muthumahesh04/Leetcode_Solutions/tree/master/0003-longest-substring-without-repeating-characters) |
+## Geometry
+|  |
+| ------- |
+| [0866-rectangle-overlap](https://github.com/muthumahesh04/Leetcode_Solutions/tree/master/0866-rectangle-overlap) |
 <!---LeetCode Topics End-->
