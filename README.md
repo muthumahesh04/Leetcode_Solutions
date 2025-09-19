@@ -141,6 +141,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1646-kth-missing-positive-number](https://github.com/muthumahesh04/Leetcode_Solutions/tree/master/1646-kth-missing-positive-number) |
 | [1709-alert-using-same-key-card-three-or-more-times-in-a-one-hour-period](https://github.com/muthumahesh04/Leetcode_Solutions/tree/master/1709-alert-using-same-key-card-three-or-more-times-in-a-one-hour-period) |
 | [1833-find-the-highest-altitude](https://github.com/muthumahesh04/Leetcode_Solutions/tree/master/1833-find-the-highest-altitude) |
+| [2015-determine-whether-matrix-can-be-obtained-by-rotation](https://github.com/muthumahesh04/Leetcode_Solutions/tree/master/2015-determine-whether-matrix-can-be-obtained-by-rotation) |
 | [2199-two-furthest-houses-with-different-colors](https://github.com/muthumahesh04/Leetcode_Solutions/tree/master/2199-two-furthest-houses-with-different-colors) |
 | [2283-sort-even-and-odd-indices-independently](https://github.com/muthumahesh04/Leetcode_Solutions/tree/master/2283-sort-even-and-odd-indices-independently) |
 | [2316-count-hills-and-valleys-in-an-array](https://github.com/muthumahesh04/Leetcode_Solutions/tree/master/2316-count-hills-and-valleys-in-an-array) |
@@ -187,6 +188,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0048-rotate-image](https://github.com/muthumahesh04/Leetcode_Solutions/tree/master/0048-rotate-image) |
 | [0054-spiral-matrix](https://github.com/muthumahesh04/Leetcode_Solutions/tree/master/0054-spiral-matrix) |
 | [0074-search-a-2d-matrix](https://github.com/muthumahesh04/Leetcode_Solutions/tree/master/0074-search-a-2d-matrix) |
+| [2015-determine-whether-matrix-can-be-obtained-by-rotation](https://github.com/muthumahesh04/Leetcode_Solutions/tree/master/2015-determine-whether-matrix-can-be-obtained-by-rotation) |
 ## Database
 |  |
 | ------- |
