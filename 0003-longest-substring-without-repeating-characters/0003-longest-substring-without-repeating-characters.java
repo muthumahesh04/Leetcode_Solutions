@@ -14,16 +14,14 @@ class Solution
 
         while(right < s.length())
         {
-            if(last_occurance[s.charAt(right)] < left)
+            while(right < s.length() && last_occurance[s.charAt(right)] < left)
             {
-                maxLength=Math.max(maxLength,right-left+1);
+                last_occurance[s.charAt(right)]=right;
+                right++;
             }
-            else
-            {
+            maxLength=Math.max(maxLength,right-left);
+            if(right<s.length())
                 left=last_occurance[s.charAt(right)]+1;
-            }
-            last_occurance[s.charAt(right)]=right;
-            right++;
         }
         return maxLength;
     }
