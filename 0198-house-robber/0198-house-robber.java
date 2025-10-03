@@ -6,9 +6,9 @@ class Solution
 
         if(nums.length==1)
           return nums[0];
-        if(nums.length==2)
-          return Math.max(nums[0],nums[1]);
+        
 
+        //total_loot(Maximum) done at that house position
         total_loot[0]=nums[0];
         total_loot[1]=Math.max(nums[0],nums[1]);
 
